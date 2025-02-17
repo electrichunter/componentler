@@ -1,13 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
-
 :root {
-    --mainColor: crimson;
-    --black: #000000;
+    --mainColor: #5C6AC4;         /* Yumuşak pastel mavi */
+    --secondaryColor: #89A6FF;    /* Hafif tonlarda mavi vurgu */
+    --black: #2E2E2E;             /* Geleneksel siyah yerine daha yumuşak koyu gri */
     --white: #FFFFFF;
-    --whiteSmoke: #C4C3CA;
-    --shadow: 0px 4px 8px 0 rgba(21, 21, 21, .2);
-}
-
+    --whiteSmoke: #F5F5F5;        /* Göz yormayan, daha hafif bir beyaz duman tonu */
+    --background: #EFEFEF;        /* Genel arka plan için açık ve rahatlatıcı ton */
+    --shadow: 0px 4px 8px 0 rgba(0, 0, 0, 0.1); /* Daha hafif ve zarif gölge efekti */
+  }
+  
 * { margin: 0; padding: 0; box-sizing: border-box; }
 
 ::before, ::after { box-sizing: border-box; }
