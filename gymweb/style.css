@@ -1,0 +1,29 @@
+body{
+    background-color: orange;
+}
+ .btn-orange {
+    display: inline-block;
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border: 2px solid #ed8936; /* Turuncu çerçeve */
+    color: #ed8936; /* Yazı rengi */
+    background: transparent;
+    border-radius: 8px;
+    transition: all 0.3s ease-in-out;
+    text-align: center;
+  }
+  
+  .btn-orange:hover {
+    background: #ed8936;  /* Arka plan turuncu */
+    color: #fff;  /* Yazı beyaz */
+    border-color: transparent;
+    transform: scale(1.05); /* Hafif büyüme efekti */
+    box-shadow: 0 4px 10px rgba(237, 137, 54, 0.3); /* Hafif gölge efekti */
+  }
+  
+  .btn-orange:active {
+    transform: scale(0.98); /* Basılınca hafif küçülme efekti */
+  }
+  
